@@ -1,0 +1,9 @@
+use namespace Std/Stdio
+
+class StdTest {
+    fn main() {
+    write("Hello Kave")
+    string x
+    read(x)
+    }
+}
