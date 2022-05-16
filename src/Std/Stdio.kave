@@ -1,0 +1,29 @@
+namespace Std/Stdio
+use namespace Std/Stdio
+
+
+struct Output {
+text string,
+integer int
+}
+struct Input {
+   text string,
+   integer int
+}
+class Stdio {
+    fn write(string x, int y) {
+    x = Output.text
+    y = Output.integer
+    this.write(x)
+    this.write(y)
+    }
+    fn scan(string x, int y) {
+     x = Input.text
+     y = Input.integer
+     return x, y
+     write()
+     return
+     this.scan(x)
+     this.scan(y)
+    }
+}
